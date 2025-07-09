@@ -1,0 +1,106 @@
+# 🗨️ Real-Time Chat Application with Socket.io
+
+A real-time chat app built using **Socket.io**, **React (Vite)**, and **Express**, demonstrating bi-directional communication between clients and the server. This project was developed as part of the **Week 5 assignment** for a full-stack web development course.
+
+---
+
+## 📌 Project Overview
+
+This is a responsive web chat app that allows multiple users to:
+- Join with a username
+- Send and receive real-time messages
+- View online users
+- See when others are typing
+- Get system notifications when users join/leave
+
+The frontend is built with **React** and styled using **Tailwind CSS (via CDN)**, while the backend is powered by **Node.js**, **Express**, and **Socket.io** for WebSocket communication.
+
+---
+
+## 🚀 Features Implemented
+
+✅ Real-time messaging  
+✅ Typing indicators  
+✅ Online user list  
+✅ System notifications (join/leave)  
+✅ Private messaging (backend-ready)  
+✅ Connection and disconnection handling  
+✅ Responsive and clean UI with Tailwind CSS
+
+---
+
+## 🛠️ Setup Instructions
+
+### 🔧 Prerequisites
+
+- Node.js (v18+ recommended)
+- pnpm or npm installed
+
+---
+
+### 📁 Folder Structure
+
+week-5-web-sockets-assignment/
+├── client/ # React frontend (Vite + Tailwind)
+│ └── src/
+│ ├── App.jsx
+│ ├── Chat.jsx
+│ ├── socket/socket.js
+│ └── ...
+├── server/ # Express + Socket.io backend
+│ ├── server.js
+│ └── .env
+└── README.md
+
+
+---
+
+### 🧩 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/week-5-web-sockets-assignment.git
+cd week-5-web-sockets-assignment
+
+🖥️ 2. Start the Backend
+cd server
+npm install
+node server.js
+
+🌐 3. Start the Client
+cd ../client
+pnpm install        # or npm install
+pnpm run dev        # or npm run dev
+
+This should open: http://localhost:5173
+
+🖼️ Screenshots
+### 💬 Join in Action
+
+![Chat Screen](./screenshots/join-screen.png)
+
+### 💬 Chat in Action
+![Chat](./screenshots/chat-screen.png)
+
+📦 Technologies Used
+Frontend
+
+React (Vite)
+
+Tailwind CSS (via CDN)
+
+Socket.io-client
+
+Backend
+
+Express.js
+
+Socket.io
+
+Node.js
+
+CORS, dotenv
+
+👤 Author
+Erick kirui
+https://github.com/x88-code
+
